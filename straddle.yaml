@@ -1,6 +1,6 @@
 schema_version: 1
 name: gadgetsandgizmos/release-test
 prefix: reltest
-version: 0.0.2
+version: 0.0.3
 requires:
   - spangap/spangap-net
