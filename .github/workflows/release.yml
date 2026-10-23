@@ -1,0 +1,12 @@
+name: release
+
+# On a vX.Y.Z tag, make the release page using spangap's shared release workflow.
+on:
+  push:
+    tags: ['v*.*.*']
+
+jobs:
+  release:
+    uses: gadgetsandgizmos/spangap/.github/workflows/release.yml@lee/release
+    permissions:
+      contents: write
